@@ -19,6 +19,13 @@ The system focuses on **transparency** (Explainable AI) and **sustainability** (
 - **Sustainability:** CodeCarbon (Emissions Tracking)
 - **Data Engineering:** Pandas, NumPy
 
+## Dataset
+The model is trained on the **Global Weather Repository** dataset, which includes comprehensive historical weather and pollution data.
+
+* **Key Features:** Temperature, Humidity, Wind Speed, Air Pressure, PM2.5, PM10, NO2, SO2, CO.
+* **Location:** The dataset file (`GlobalWeatherRepository.csv`) is placed in the `backend/` folder.
+* **Note:** Due to GitHub's file size limits, the raw CSV file is **not included** in this repository.
+  * *If you are cloning this repo, please place your own dataset named `GlobalWeatherRepository.csv` inside the `backend/` folder before running the training script.*
 ## Project Structure
 ```text
 SustainAI/
@@ -67,5 +74,6 @@ npm start
 python backend/train_model.py
 ```
 *This will generate new .pkl files for both Nowcasting (current) and Forecasting (future).*
+
 
 
