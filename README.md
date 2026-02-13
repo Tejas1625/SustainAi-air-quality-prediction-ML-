@@ -59,12 +59,13 @@ cd frontend
 npm install
 npm start
 ```
-- Status: The browser will automatically open http://localhost:3000.
+*Status: The browser will automatically open http://localhost:3000.*
 
 ### 3. Model Training (Optional)
 - To manually retrain the models with new data:
 ```bash
 python backend/train_model.py
 ```
-- *This will generate new .pkl files for both Nowcasting (current) and Forecasting (future).*
+*This will generate new .pkl files for both Nowcasting (current) and Forecasting (future).*
+
 
