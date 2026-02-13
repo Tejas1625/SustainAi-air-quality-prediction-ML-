@@ -43,26 +43,28 @@ SustainAI/
 └── README.md                    # Project Documentation
 ```
 ## How to Run Locally
-### 1. Backend setup
-- Navigate to the backend folder and start the server.
+### 1. Start the Backend (First)
+- Open your terminal, navigate to the backend folder, and run the Flask app.
 ```bash
 cd backend
 pip install -r requirements.txt
-python start_backend.py
+python app.py
 ```
-*Note: The script automatically trains the model if artifacts are missing.*
-### 2. Frontend setup
-- Open a new terminal, navigate to the frontend folder, and launch the UI.
+*Status: The server will start on http://127.0.0.1:5000. Keep this terminal open.*
+
+### 2. Start the Frontend (Second)
+- Open a new terminal window, navigate to the frontend folder, and start the React server.
 ```bash
 cd frontend
 npm install
 npm start
 ```
-- Access: Open your browser and go to http://localhost:3000.
+- Status: The browser will automatically open http://localhost:3000.
 
 ### 3. Model Training (Optional)
 - To manually retrain the models with new data:
 ```bash
 python backend/train_model.py
 ```
-*This will generate new .pkl files for both Nowcasting (current) and Forecasting (future).*
+- *This will generate new .pkl files for both Nowcasting (current) and Forecasting (future).*
+
