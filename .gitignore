@@ -1,0 +1,17 @@
+# Ignore huge dependencies
+node_modules/
+backend/venv/
+backend/env/
+__pycache__/
+*.pyc
+
+# Ignore large datasets & models (too big for GitHub)
+backend/GlobalWeatherRepository.csv
+backend/emissions.csv
+backend/artifacts/*.pkl
+backend/artifacts/*.joblib
+*.zip
+
+# Ignore system files
+.DS_Store
+.env
