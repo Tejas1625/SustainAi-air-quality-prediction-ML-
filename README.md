@@ -14,7 +14,8 @@ The system focuses on **transparency** (Explainable AI) and **sustainability** (
 - **Interactive Dashboard:** Built with React and Tailwind CSS, featuring city-wise analytics and sustainability reports.
 
 ## Tech Stack
-- **Backend:** Python (Flask), Scikit-learn, XGBoost, LightGBM
+- **Backend:** Python (Flask)
+- **ML:** Scikit-learn, XGBoost, LightGBM
 - **Frontend:** React.js, Tailwind CSS, Lucide-React
 - **Sustainability:** CodeCarbon (Emissions Tracking)
 - **Data Engineering:** Pandas, NumPy
@@ -74,6 +75,7 @@ npm start
 python backend/train_model.py
 ```
 *This will generate new .pkl files for both Nowcasting (current) and Forecasting (future).*
+
 
 
 
