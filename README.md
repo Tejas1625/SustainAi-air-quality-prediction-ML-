@@ -15,7 +15,7 @@ The system focuses on **transparency** (Explainable AI) and **sustainability** (
 
 ## Tech Stack
 - **Backend:** Python (Flask)
-- **ML:** Scikit-learn, XGBoost, LightGBM
+- **ML:** Scikit-learn, XGBoost, LightGBM, SHAP
 - **Frontend:** React.js, Tailwind CSS, Lucide-React
 - **Sustainability:** CodeCarbon (Emissions Tracking)
 - **Data Engineering:** Pandas, NumPy
@@ -75,6 +75,7 @@ npm start
 python backend/train_model.py
 ```
 *This will generate new .pkl files for both Nowcasting (current) and Forecasting (future).*
+
 
 
 
